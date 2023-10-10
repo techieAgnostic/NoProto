@@ -71,6 +71,8 @@ pub mod values;
 mod types;
 mod format;
 
+pub use crate::values::NP_Value;
+
 #[macro_use]
 extern crate alloc;
 
