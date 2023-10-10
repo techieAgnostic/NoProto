@@ -67,7 +67,7 @@ mod json_flex;
 mod schema;
 mod memory;
 mod buffer;
-mod values;
+pub mod values;
 mod types;
 mod format;
 
